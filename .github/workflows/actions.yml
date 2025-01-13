@@ -7,16 +7,18 @@ jobs:
     name: Run MSBuild
     
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4  # Lädt den Code aus dem Repository
       - name: Setup dotnet
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '6.0.x'
+          
       - name: Build
         run: dotnet build
+        working-directory: ./path/to/solution_or_project # Pfad zu deinem .sln oder .csproj
+      
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: cicdtest  # Artifact name
-          path: ./cicdtest/bin/Debug/cicdtest.exe   # Files or folder to upload
-      
+          name: cicdtest  # Artifact-Name
+          path: ./path/to/project/bin/Debug/cicdtest.exe  # Genau definierter Pfad zur .exe-Datei
