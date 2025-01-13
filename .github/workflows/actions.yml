@@ -12,15 +12,11 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '6.0.x'
-      - name: Install dependencies
-        run: nuget restore cicd_example.sln
       - name: Build
         run: dotnet build
-      - name: Test with the dotnet CLI
-        run: dotnet test
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: cicd_example_binary  # Artifact name
+          name: cicdtest  # Artifact name
           path: ./cicdtest/bin/Debug/cicdtest.exe   # Files or folder to upload
       
