@@ -1,0 +1,7 @@
+D:\HTL\5.Klasse\SEW\CIDCTest\CI-CD-Test\CIDC_Test\CIDC_Test\bin\Debug\CIDC_Test.exe.config
+D:\HTL\5.Klasse\SEW\CIDCTest\CI-CD-Test\CIDC_Test\CIDC_Test\bin\Debug\CIDC_Test.exe
+D:\HTL\5.Klasse\SEW\CIDCTest\CI-CD-Test\CIDC_Test\CIDC_Test\bin\Debug\CIDC_Test.pdb
+D:\HTL\5.Klasse\SEW\CIDCTest\CI-CD-Test\CIDC_Test\CIDC_Test\obj\Debug\CIDC_Test.csproj.AssemblyReference.cache
+D:\HTL\5.Klasse\SEW\CIDCTest\CI-CD-Test\CIDC_Test\CIDC_Test\obj\Debug\CIDC_Test.csproj.CoreCompileInputs.cache
+D:\HTL\5.Klasse\SEW\CIDCTest\CI-CD-Test\CIDC_Test\CIDC_Test\obj\Debug\CIDC_Test.exe
+D:\HTL\5.Klasse\SEW\CIDCTest\CI-CD-Test\CIDC_Test\CIDC_Test\obj\Debug\CIDC_Test.pdb
