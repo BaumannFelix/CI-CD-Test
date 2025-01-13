@@ -11,7 +11,7 @@ namespace CIDC_Test
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Welt");
-            Console.WriteLine("Das ist die Version 1.1");
+            Console.WriteLine("Das ist die Version 1.2");
 
             Console.ReadKey();
         }
