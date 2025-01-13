@@ -15,10 +15,10 @@ jobs:
           
       - name: Build
         run: dotnet build
-        working-directory: ./path/to/solution_or_project # Pfad zu deinem .sln oder .csproj
+        working-directory: .\CI-CD-Test\CIDC_Test\CIDC_Test.sln # Pfad zu deinem .sln oder .csproj
       
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
           name: cicdtest  # Artifact-Name
-          path: ./path/to/project/bin/Debug/cicdtest.exe  # Genau definierter Pfad zur .exe-Datei
+          path: .\CI-CD-Test\CIDC_Test\CIDC_Test\bin\Debug\CIDC_Test.exe  # Genau definierter Pfad zur .exe-Datei
